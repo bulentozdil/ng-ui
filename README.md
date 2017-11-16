@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # InPlusUI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
@@ -29,3 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # angular5-ui-template
 >>>>>>> da54f3f99f6617f68aa8e4b968679e1da114ab21
+=======
+# ng-ui
+>>>>>>> a08347f2d8f1f133ac881d0b983096fa826a7965
