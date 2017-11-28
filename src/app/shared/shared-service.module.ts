@@ -1,4 +1,10 @@
 import { NgModule } from "@angular/core";
 
-@NgModule({})
-export class SharedServiceModule{}
+import { ChartService } from "./services";
+
+@NgModule({
+    providers: [
+        ChartService
+    ]
+})
+export class SharedServiceModule { }

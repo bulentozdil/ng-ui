@@ -10,6 +10,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
 import { APP_ROUTING_MODULE } from "./app.route";
 import { LayoutModule } from "./layouts/layout.module";
 import { CustomErrorModule } from './core/customErrorHandler';
+import { SharedModule } from "./shared/shared.module";
 
 /**
  * Components
@@ -44,6 +45,7 @@ import { AuthInterceptor } from "./core/authInterceptor";
     HttpModule,
     HttpClientModule,
     LayoutModule,
+    SharedModule,
     APP_ROUTING_MODULE
   ],
   providers: [
